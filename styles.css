@@ -40,7 +40,7 @@ nav {
     align-items: center;
 }
 .logo img {
-    height: 50px;
+    height: 150px;
 }
 .nav-links {
     display: flex;
@@ -60,7 +60,7 @@ nav {
 }
 .btn {
     background: linear-gradient(to right, var(--primary-color), var(--secondary-color));
-    color: white;
+    color: rgb(9, 106, 20);
     border: none;
     padding: 14px 25px;
     border-radius: 6px;
@@ -82,17 +82,17 @@ nav {
     display: none;
 }
 .hero {
-    background: linear-gradient(rgba(46, 125, 50, 0.8), rgba(27, 94, 32, 0.8)), url('imagens/emergency-bg.jpg');
+    background: linear-gradient(rgba(2, 57, 13, 0.8), rgba(27, 94, 32, 0.8)), url('imagens/emergency-bg.jpg');
     background-size: cover;
     background-position: center;
-    color: white;
+    color: rgb(255, 255, 255);
     text-align: center;
     padding: 100px 0;
 }
 .hero-content h1 {
     font-size: 3rem;
     margin-bottom: 20px;
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+    text-shadow: 1px 1px 3px rgb(11, 113, 35);
 }
 .hero-content p {
     font-size: 1.2rem;
@@ -840,7 +840,7 @@ footer {
 }
 .stat-label {
     font-size: 1.1rem;
-    color: #ffffff;
+    color: #000000;
 }
 .team {
     background: linear-gradient(rgb(13, 104, 27), #ffffff);
