@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sistema de Abrigos Temporários</title>
+    <title>EcoSherter</title>
     <meta name="description"
         content="Plataforma para gestão de emergências, abrigos temporários e serviços de proteção civil">
     <meta name="keywords" content="abrigos, emergência, defesa civil, desastres naturais, proteção civil, incidentes">
@@ -20,7 +20,7 @@
         <div class="container">
             <nav>
                 <a href="#" class="logo">
-                    <img src="img/" alt="Logo">
+                    <img src="img/Logo.png" alt="Logo">
                 </a>
                 <ul class="nav-links">
                     <li><a href="#home">Início</a></li>
@@ -38,189 +38,197 @@
         </div>
     </header>
 
-    <section class="hero" id="home">
-        <div class="container">
-            <div class="hero-content">
-                <h1 class="fade-in">Sistema de Abrigos Temporários</h1>
-                <p class="fade-in delay-1">Plataforma integrada para gestão de emergências, localização de abrigos e
-                    acesso a serviços de proteção civil. Encontre ajuda quando mais precisa.</p>
+    <main>
+        <section class="hero" id="home">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="fade-in">EcoSherter</h1>
+                    <p class="fade-in delay-1">Plataforma integrada para gestão de emergências, localização de abrigos e
+                        acesso a serviços de proteção civil. Encontre ajuda quando mais precisa.</p>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section id="register" class="register-section">
-        <div class="form-container register-form">
-            <h1>Cadastro no Sistema</h1>
-            <p>Registre-se para receber alertas e acessar serviços prioritários</p>
+        <section id="register" class="register-section">
+            <article class="form-container register-form">
+                <h1>Cadastro no Sistema</h1>
+                <p>Registre-se para receber alertas e acessar serviços prioritários</p>
 
-            <div class="form-field">
-                <label for="cpf">CPF (somente números)</label>
-                <input type="text" id="cpf" class="form-input" placeholder="000.000.000-00">
-            </div>
-
-            <div class="form-field">
-                <label for="nome">Nome completo</label>
-                <input type="text" id="nome" class="form-input" placeholder="Seu nome completo">
-            </div>
-
-            <div class="form-field-group">
                 <div class="form-field">
-                    <label for="nascimento">Data de nascimento</label>
-                    <input type="date" id="nascimento" class="form-input">
+                    <label for="cpf">CPF (somente números)</label>
+                    <input type="text" id="cpf" class="form-input" placeholder="000.000.000-00">
                 </div>
+
                 <div class="form-field">
-                    <label for="telefone">Telefone para contato</label>
-                    <input type="tel" id="telefone" class="form-input" placeholder="(00) 00000-0000">
+                    <label for="nome">Nome completo</label>
+                    <input type="text" id="nome" class="form-input" placeholder="Seu nome completo">
                 </div>
-            </div>
 
-            <button type="submit" class="form-button">CADASTRAR</button>
-        </div>
-
-    <section class="about-hero">
-        <div class="container">
-            <div class="hero-content">
-                <h1 class="fade-in">Quem Somos</h1>
-                <p class="fade-in delay-1">Conheça a equipe por trás do Sistema de Abrigos Temporários e nossa missão de proteger comunidades em situações de emergência</p>
-            </div>
-        </div>
-    </section>
-
-    <section class="about-mission">
-        <div class="container">
-            <div class="section-title">
-                <h2>Nossa Missão</h2>
-            </div>
-            <div class="mission-content">
-                <div class="mission-text">
-                    <p>O Sistema de Abrigos Temporários foi criado em 2018 com o objetivo de centralizar e organizar informações sobre locais seguros durante situações de emergência em todo o estado de São Paulo.</p>
-                    <p>Nossa plataforma conecta pessoas em situação de vulnerabilidade com abrigos disponíveis, agiliza o reporte de incidentes e fornece informações essenciais para proteção civil.</p>
-                    <p>Acreditamos que a tecnologia, quando bem aplicada, pode salvar vidas e reduzir os impactos de desastres naturais e outras emergências.</p>
-                </div>
-                <div class="mission-stats">
-                    <div class="stat-item">
-                        <span class="stat-number">150+</span>
-                        <span class="stat-label">Abrigos cadastrados</span>
+                <div class="form-field-group">
+                    <div class="form-field">
+                        <label for="nascimento">Data de nascimento</label>
+                        <input type="date" id="nascimento" class="form-input">
                     </div>
-                    <div class="stat-item">
-                        <span class="stat-number">5.000+</span>
-                        <span class="stat-label">Pessoas atendidas</span>
-                    </div>
-                    <div class="stat-item">
-                        <span class="stat-number">24/7</span>
-                        <span class="stat-label">Atendimento</span>
+                    <div class="form-field">
+                        <label for="telefone">Telefone para contato</label>
+                        <input type="tel" id="telefone" class="form-input" placeholder="(00) 00000-0000">
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
-        <div class="form-container incident-form">
-            <h1>Relatar incidente</h1>
-            <p>Informe este e outras situações de risco ou emergência</p>
 
-            <div class="form-section">
-                <h2>Tipo de incidente</h2>
-                <div class="form-field">
-                    <label for="local">Local aproximado</label>
-                    <input type="text" id="local" class="form-input" placeholder="Digite o local aproximado">
+                <button type="submit" class="form-button">CADASTRAR</button>
+            </article>
+        </section>
+
+        <section class="about-hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="fade-in">Quem Somos</h1>
+                    <p class="fade-in delay-1">Conheça a equipe por trás do Sistema de Abrigos Temporários e nossa missão de proteger comunidades em situações de emergência</p>
                 </div>
+            </div>
+        </section>
 
-                <div class="form-field">
-                    <label>Natureza do incidente</label>
-                    <div class="nature-options">
-                        <label class="nature-option">
-                            <input type="radio" name="natureza" value="alagamento"> Alagamento
-                        </label>
-                        <label class="nature-option">
-                            <input type="radio" name="natureza" value="incendio"> Incêndio
-                        </label>
-                        <label class="nature-option">
-                            <input type="radio" name="natureza" value="deslizamento"> Deslizamento
-                        </label>
-                        <label class="nature-option">
-                            <input type="radio" name="natureza" value="outro"> Outro
-                        </label>
+        <section class="about-mission">
+            <div class="container">
+                <article>
+                    <div class="section-title">
+                        <h2>Nossa Missão</h2>
+                    </div>
+                    <div class="mission-content">
+                        <div class="mission-text">
+                            <p>O Sistema de Abrigos Temporários foi criado em 2018 com o objetivo de centralizar e organizar informações sobre locais seguros durante situações de emergência em todo o estado de São Paulo.</p>
+                            <p>Nossa plataforma conecta pessoas em situação de vulnerabilidade com abrigos disponíveis, agiliza o reporte de incidentes e fornece informações essenciais para proteção civil.</p>
+                            <p>Acreditamos que a tecnologia, quando bem aplicada, pode salvar vidas e reduzir os impactos de desastres naturais e outras emergências.</p>
+                        </div>
+                        <div class="mission-stats">
+                            <div class="stat-item">
+                                <span class="stat-number">150+</span>
+                                <span class="stat-label">Abrigos cadastrados</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">5.000+</span>
+                                <span class="stat-label">Pessoas atendidas</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">24/7</span>
+                                <span class="stat-label">Atendimento</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="incidents">
+            <article class="form-container incident-form">
+                <h1>Relatar incidente</h1>
+                <p>Informe este e outras situações de risco ou emergência</p>
+
+                <div class="form-section">
+                    <h2>Tipo de incidente</h2>
+                    <div class="form-field">
+                        <label for="local">Local aproximado</label>
+                        <input type="text" id="local" class="form-input" placeholder="Digite o local aproximado">
+                    </div>
+
+                    <div class="form-field">
+                        <label>Natureza do incidente</label>
+                        <div class="nature-options">
+                            <label class="nature-option">
+                                <input type="radio" name="natureza" value="alagamento"> Alagamento
+                            </label>
+                            <label class="nature-option">
+                                <input type="radio" name="natureza" value="incendio"> Incêndio
+                            </label>
+                            <label class="nature-option">
+                                <input type="radio" name="natureza" value="deslizamento"> Deslizamento
+                            </label>
+                            <label class="nature-option">
+                                <input type="radio" name="natureza" value="outro"> Outro
+                            </label>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="form-section">
-                <h2>Descrição detalhada</h2>
-                <div class="form-field">
-                    <label for="descricao">Descreva o que está acontecendo</label>
-                    <textarea id="descricao" class="form-input" rows="4"
-                        placeholder="Forneça detalhes sobre a situação"></textarea>
+                <div class="form-section">
+                    <h2>Descrição detalhada</h2>
+                    <div class="form-field">
+                        <label for="descricao">Descreva o que está acontecendo</label>
+                        <textarea id="descricao" class="form-input" rows="4"
+                            placeholder="Forneça detalhes sobre a situação"></textarea>
+                    </div>
                 </div>
-            </div>
 
-            <button type="submit" class="form-button">REPORTAR INCIDENTE</button>
-        </div>
-    </section>
+                <button type="submit" class="form-button">REPORTAR INCIDENTE</button>
+            </article>
+        </section>
 
-    <section id="shelters" class="shelters-section">
-        <div class="container">
-            <div class="section-title">
-                <h2>Abrigos Disponíveis</h2>
-                <p>Locais seguros para abrigo temporário</p>
-            </div>
-            <div class="shelters-grid">
-                <div class="shelter-card">
-                    <h3>Norte</h3>
-                    <p><strong>Endereços:</strong> Turucuvi: Av. Mazzei, 446-562 - Vila Mazzei, São Paulo - SP,
-                        02310-000
-                        Vila no cachoerinha :Av. Inajar de Souza - Limão, São Paulo - SP, 02861-190
-                        Santana: R. Dr. Gabriel Piza, 321-261 - Santana, São Paulo - SP, 02036-010</p>
-                    <p><strong>Vagas:</strong> 50</p>
-                    <p><strong>Recursos:</strong> Alimentação, Kit higiene</p>
-                </div>
-                <div class="shelter-card">
-                    <h3>Sul</h3>
-                    <p><strong>Endereços:</strong> R. Jaquirana, 111 - Interlagos, São Paulo - SP, 04792-090
+        <section id="shelters" class="shelters-section">
+            <div class="container">
+                <article>
+                    <div class="section-title">
+                        <h2>Abrigos Disponíveis</h2>
+                        <p>Locais seguros para abrigo temporário</p>
+                    </div>
+                    <div class="shelters-grid">
+                        <div class="shelter-card">
+                            <h3>Norte</h3>
+                            <p><strong>Endereços:</strong> Turucuvi: Av. Mazzei, 446-562 - Vila Mazzei, São Paulo - SP,
+                                02310-000
+                                Vila no cachoerinha :Av. Inajar de Souza - Limão, São Paulo - SP, 02861-190
+                                Santana: R. Dr. Gabriel Piza, 321-261 - Santana, São Paulo - SP, 02036-010</p>
+                            <p><strong>Vagas:</strong> 50</p>
+                            <p><strong>Recursos:</strong> Alimentação, Kit higiene</p>
+                        </div>
+                        <div class="shelter-card">
+                            <h3>Sul</h3>
+                            <p><strong>Endereços:</strong> R. Jaquirana, 111 - Interlagos, São Paulo - SP, 04792-090
 
-                        Jabaquara : R. dos Jornalistas, 272-318 - Cidade Vargas, São Paulo - SP, 04318-000
+                                Jabaquara : R. dos Jornalistas, 272-318 - Cidade Vargas, São Paulo - SP, 04318-000
 
-                        Grajaú: R. Francesco Geminiani, 9 - Parque Brasil, São Paulo - SP, 04843-010
+                                Grajaú: R. Francesco Geminiani, 9 - Parque Brasil, São Paulo - SP, 04843-010
 
-                        Americanópolis: Av. Yervant Kissajikian, 3002-3098 - Americanópolis, São Paulo - SP, 04657-001
-                    </p>
-                    <p><strong>Vagas:</strong> 100</p>
-                    <p><strong>Recursos:</strong> Alimentação, Camas</p>
-                </div>
-                <div class="shelter-card">
-                    <h3>Leste</h3>
-                    <p><strong>Endereços:</strong> Av. Itaquera, 7149-7075 - Vila Carmosina, São Paulo - SP
+                                Americanópolis: Av. Yervant Kissajikian, 3002-3098 - Americanópolis, São Paulo - SP, 04657-001
+                            </p>
+                            <p><strong>Vagas:</strong> 100</p>
+                            <p><strong>Recursos:</strong> Alimentação, Camas</p>
+                        </div>
+                        <div class="shelter-card">
+                            <h3>Leste</h3>
+                            <p><strong>Endereços:</strong> Av. Itaquera, 7149-7075 - Vila Carmosina, São Paulo - SP
 
-                        Mooca : Av. Alcântara Machado, 1750 - Mooca, São Paulo - SP, 03102-004
+                                Mooca : Av. Alcântara Machado, 1750 - Mooca, São Paulo - SP, 03102-004
 
-                        São Matheus: Av. Sapopemba - Jardim Adutora, São Paulo - SP
+                                São Matheus: Av. Sapopemba - Jardim Adutora, São Paulo - SP
 
-                        Guaianases: R. Prof. Alexandre Monat, 280 - Vila Minerva, São Paulo - SP, 08441-370</p>
-                    <p><strong>Vagas:</strong> 30</p>
-                    <p><strong>Recursos:</strong> Alimentação</p>
-                </div>
-                <div class="shelter-card">
-                    <h3>Oeste</h3>
-                    <p><strong>Endereços:</strong> Av. Vital Brasil, 320 - Butantã, São Paulo - SP, 05503-000
+                                Guaianases: R. Prof. Alexandre Monat, 280 - Vila Minerva, São Paulo - SP, 08441-370</p>
+                            <p><strong>Vagas:</strong> 30</p>
+                            <p><strong>Recursos:</strong> Alimentação</p>
+                        </div>
+                        <div class="shelter-card">
+                            <h3>Oeste</h3>
+                            <p><strong>Endereços:</strong> Av. Vital Brasil, 320 - Butantã, São Paulo - SP, 05503-000
 
-                        Osasco: R. Dona Primitiva Vianco, 189 - Centro, Osasco - SP, 06010-000
+                                Osasco: R. Dona Primitiva Vianco, 189 - Centro, Osasco - SP, 06010-000
 
-                        Pirituba: Rua Dr. Carlos Afranio da Cunha Matos, 140 - Chácara Inglesa, São Paulo - SP,
-                        05140-040</p>
-                    <p><strong>Vagas:</strong> 30</p>
-                    <p><strong>Recursos:</strong> Alimentação</p>
-                </div>
-                <div class="shelter-card">
-                    <h3>Baixada</h3>
-                    <p><strong>Mogaguá : Av. Gov. Mário Covas Júnior, 10395-10329 - Balneario Itaguaí
+                                Pirituba: Rua Dr. Carlos Afranio da Cunha Matos, 140 - Chácara Inglesa, São Paulo - SP,
+                                05140-040</p>
+                            <p><strong>Vagas:</strong> 30</p>
+                            <p><strong>Recursos:</strong> Alimentação</p>
+                        </div>
+                        <div class="shelter-card">
+                            <h3>Baixada</h3>
+                            <p><strong>Mogaguá : Av. Gov. Mário Covas Júnior, 10395-10329 - Balneario Itaguaí
 
                                 Santos: R. Euclides da Cunha, 21 - Gonzaga, Santos - SP, 11065-900 ( Shopping Miramar)
 
                                 Peruíbe: Av. Pref. Dr. Ghoerghe Popescu, 146-216 - Centro
-                    <p><strong>Vagas:</strong> 30</p>
-                    <p><strong>Recursos:</strong> Alimentação</p>
-                </div><div class="shelter-card">
-                    <h3>Interior</h3>
-                    <p><strong>Endereços:</strong> Ribeirão preto: Avenida Jerônimo Gonçalves 511, Setor Central - C, Ribeirão Preto - São Paulo, 14034
+                            <p><strong>Vagas:</strong> 30</p>
+                            <p><strong>Recursos:</strong> Alimentação</p>
+                        </div>
+                        <div class="shelter-card">
+                            <h3>Interior</h3>
+                            <p><strong>Endereços:</strong> Ribeirão preto: Avenida Jerônimo Gonçalves 511, Setor Central - C, Ribeirão Preto - São Paulo, 14034
 
                                     Ibiúna : Rua Pinduca Soares, 350 - BOX 02 - Centro, Ibiúna - SP, 18150-176
 
@@ -229,101 +237,118 @@
                                     Piracicaba: R. Monsenhor Manoel Francisco Rosa, 674-734 - Centro, Piracicaba - SP, 13400-270
 
                                     Mogi Guaçu: Av. Mogi Mirim, 1601 - Centro, Mogi Guaçu - SP, 13844-115</p>
-                    <p><strong>Vagas:</strong> 30</p>
-                    <p><strong>Recursos:</strong> Alimentação</p>
-                </div>
+                            <p><strong>Vagas:</strong> 30</p>
+                            <p><strong>Recursos:</strong> Alimentação</p>
+                        </div>
+                    </div>
+                </article>
             </div>
-        </div>
-    </section>
-
-    <section id="emergency" class="emergency-section">
-        <div class="container">
-            <div class="section-title">
-                <h2>Serviços de Emergência</h2>
-                <p>Contatos para situações críticas</p>
-            </div>
-            <div class="emergency-grid">
-                <div class="emergency-card">
-                    <h3>SAMU</h3>
-                    <p><strong>Telefone:</strong> 192</p>
-                    <p><strong>Atuação:</strong> Emergências médicas</p>
-                </div>
-                <div class="emergency-card">
-                    <h3>Bombeiros</h3>
-                    <p><strong>Telefone:</strong> 193</p>
-                    <p><strong>Atuação:</strong> Incêndios e resgates</p>
-                </div>
-                <div class="emergency-card">
-                    <h3>Defesa Civil</h3>
-                    <p><strong>Telefone:</strong> 199</p>
-                    <p><strong>Atuação:</strong> Desastres naturais</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="guides" class="faq-section">
-        <div class="container">
-            <h2>Perguntas Frequentes</h2>
-            <div class="faq">
-            <h3>📌 Como preparar meu abrigo?</h3>
-            <p>Tenha kits de primeiros socorros, água potável, colchões e comunicações disponíveis.</p>
-
-            <h3>🛑 Quando um abrigo deve ser ativado?</h3>
-            <p>Quando as autoridades emitirem alertas de evacuação ou em caso de risco iminente.</p>
-
-            <h3>📍 Como posso verificar se meu abrigo foi aceito?</h3>
-            <p>Você receberá um e-mail de confirmação após a validação pela Defesa Civil.</p>
-            </div>
-        </div>
         </section>
 
-    <section class="team" id="team">
-        <div class="container">
-            <div class="section-title">
-                <h2>Nossa Equipe</h2>
+        <section id="emergency" class="emergency-section">
+            <div class="container">
+                <article>
+                    <div class="section-title">
+                        <h2>Serviços de Emergência</h2>
+                        <p>Contatos para situações críticas</p>
+                    </div>
+                    <div class="emergency-grid">
+                        <div class="emergency-card">
+                            <h3>SAMU</h3>
+                            <p><strong>Telefone:</strong> 192</p>
+                            <p><strong>Atuação:</strong> Emergências médicas</p>
+                        </div>
+                        <div class="emergency-card">
+                            <h3>Bombeiros</h3>
+                            <p><strong>Telefone:</strong> 193</p>
+                            <p><strong>Atuação:</strong> Incêndios e resgates</p>
+                        </div>
+                        <div class="emergency-card">
+                            <h3>Defesa Civil</h3>
+                            <p><strong>Telefone:</strong> 199</p>
+                            <p><strong>Atuação:</strong> Desastres naturais</p>
+                        </div>
+                    </div>
+                </article>
             </div>
-            <div class="team-members">
-                <div class="team-member fade-in">
-                    <div class="member-photo">
-                        <img src="img/altamir.jpeg" alt="Altamir Lima">
+        </section>
+
+        <section id="guides" class="faq-section">
+            <div class="container">
+                <article>
+                    <h2>Perguntas Frequentes</h2>
+                    <div class="faq">
+                    <h3>📌 Como preparar meu abrigo?</h3>
+                    <p>Tenha kits de primeiros socorros, água potável, colchões e comunicações disponíveis.</p>
+
+                    <h3>🛑 Quando um abrigo deve ser ativado?</h3>
+                    <p>Quando as autoridades emitirem alertas de evacuação ou em caso de risco iminente.</p>
+
+                    <h3>📍 Como posso verificar se meu abrigo foi aceito?</h3>
+                    <p>Você receberá um e-mail de confirmação após a validação pela Defesa Civil.</p>
                     </div>
-                    <h3 class="member-name">Altamir Lima</h3>
-                    <div class="member-links">
-                        <a href="https://www.linkedin.com/in/altamir-lima-b2766b206/" target="_blank"
-                            title="LinkedIn"><img src="img/linkedin.svg" alt="linkedin logo"></a>
-                        <a href="https://github.com/AltamirLima" target="_blank" title="GitHub">
-                        <img src="img/mark-github.svg" alt="git hub logo"></a>
+                </article>
+            </div>
+        </section>
+
+        <section class="team" id="team">
+            <div class="container">
+                <article>
+                    <div class="section-title">
+                        <h2>Nossa Equipe</h2>
                     </div>
-                </div>
-                <div class="team-member fade-in delay-1">
-                    <div class="member-photo">
-                        <img src="img/Felipe.jpeg" alt="Felipe Conte">
+                    <div class="team-members">
+                        <div class="team-member fade-in">
+                            <div class="member-photo">
+                                <img src="img/altamir.jpeg" alt="Altamir Lima">
+                            </div>
+                            <h3 class="member-name">Altamir Lima</h3>
+                            <div class="member-links">
+                                <a href="https://www.linkedin.com/in/altamir-lima-b2766b206/" target="_blank"
+                                    title="LinkedIn"><img src="img/linkedin.svg" alt="linkedin logo"></a>
+                                <a href="https://github.com/AltamirLima" target="_blank" title="GitHub">
+                                <img src="img/mark-github.svg" alt="git hub logo"></a>
+                            </div>
+                        </div>
+                        <div class="team-member fade-in delay-1">
+                            <div class="member-photo">
+                                <img src="img/Felipe.jpeg" alt="Felipe Conte">
+                            </div>
+                            <h3 class="member-name">Felipe Conte</h3>
+                            <div class="member-links">
+                                <a href="https://www.linkedin.com/in/felipe-conte-ferreira-b85747354/" target="_blank"
+                                    title="LinkedIn"><img src="img/linkedin.svg" alt="linkedin logo"></a>
+                                <a href="https://github.com/FelipeConteFerreira" target="_blank" title="GitHub">
+                                    <img src="img/mark-github.svg" alt="git hub logo"></a>
+                            </div>
+                        </div>
+                        <div class="team-member fade-in delay-2">
+                            <div class="member-photo">
+                                <img src="img/jhon.jpeg" alt="Jonathan Moreira">
+                            </div>
+                            <h3 class="member-name">Jonathan Moreira</h3>
+                            <div class="member-links">
+                                <a href="https://www.linkedin.com/in/jonathan-moreira-811b03355?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank"
+                                    title="LinkedIn"><img src="img/linkedin.svg" alt="linkedin logo"></a>
+                                <a href="https://github.com/Jonathanmoreiragomes" target="_blank" title="GitHub">
+                                    <img src="img/mark-github.svg" alt="git hub logo"></a>
+                            </div>
+                        </div>
                     </div>
-                    <h3 class="member-name">Felipe Conte</h3>
-                    <div class="member-links">
-                        <a href="https://www.linkedin.com/in/felipe-conte-ferreira-b85747354/" target="_blank"
-                            title="LinkedIn"><img src="img/linkedin.svg" alt="linkedin logo"></a>
-                        <a href="https://github.com/FelipeConteFerreira" target="_blank" title="GitHub">
-                            <img src="img/mark-github.svg" alt="git hub logo"></a>
-                    </div>
-                </div>
-                <div class="team-member fade-in delay-2">
-                    <div class="member-photo">
-                        <img src="img/jhon.jpeg" alt="Jonathan Moreira">
-                    </div>
-                    <h3 class="member-name">Jonathan Moreira</h3>
-                    <div class="member-links">
-                        <a href="https://www.linkedin.com/in/jonathan-moreira-811b03355?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank"
-                            title="LinkedIn"><img src="img/linkedin.svg" alt="linkedin logo"></a>
-                        <a href="https://github.com/Jonathanmoreiragomes" target="_blank" title="GitHub">
-                            <img src="img/mark-github.svg" alt="git hub logo"></a>
-                    </div>
+                </article>
+            </div>
+        </section>
+
+        <aside class="emergency-alert">
+            <div class="container">
+                <div class="alert-content">
+                    <h3>⚠️ Alerta de Emergência</h3>
+                    <p>Tempestade severa prevista para a região nos próximos dias. Mantenha-se informado e prepare seu kit de emergência.</p>
                 </div>
             </div>
-        </div>
-    </section>
-</section>
+        </aside>
+    </main>
+
     <footer>
         <div class="container">
             <div class="footer-content">
@@ -332,19 +357,20 @@
                     <p>Plataforma integrada para gestão de emergências e proteção civil</p>
                 </div>
                 <div class="footer-column">
-    <h3>Contatos</h3>
-    <ul class="footer-contact-list">
-        <li><a href="mailto:felipeconteferreira@gmail.com">felipeconteferreira@gmail.com</a></li>
-        <li><a href="mailto:altamir@gmail.com">altamir@gmail.com</a></li>
-        <li><a href="mailto:jhon@gmail.com">jonathanmoreiragomes25@gmail.com</a></li>
-    </ul>
+                    <h3>Contatos</h3>
+                    <ul class="footer-contact-list">
+                        <li><a href="mailto:felipeconteferreira@gmail.com">felipeconteferreira@gmail.com</a></li>
+                        <li><a href="mailto:altamir@gmail.com">altamirlima@gmail.com</a></li>
+                        <li><a href="mailto:jhon@gmail.com">jonathanmoreiragomes25@gmail.com</a></li>
+                    </ul>
                 </div>
                 <div class="footer-bottom">
                     <p>&copy; 2023 Sistema de Abrigos Temporários. Todos os direitos reservados.</p>
                 </div>
             </div>
+        </div>
     </footer>
-    <script src="./script.js"></script>
+    <script src="./newFile.js"></script>
 </body>
 
 </html>
